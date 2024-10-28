@@ -18,7 +18,8 @@ Pod::Spec.new do |spec|
 
   spec.platform     = :ios, "12.0"  
   spec.ios.deployment_target = "12.0"
-
+  spec.swift_version = '5.0'
+   
   spec.source       = { :git => "https://github.com/apivideo/api.video-swift-live-stream.git", :tag => "v" + spec.version.to_s }
 
   spec.source_files  = "Sources/**/*.{h,m,swift}"
